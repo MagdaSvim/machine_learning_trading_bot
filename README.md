@@ -22,7 +22,7 @@ When we tune the algorithm by increasing the size of the training window, we get
 
 ![Classification Report 6 months](Images/Classification Report 6 months.PNG)
 
-![Actual and Strategy Returns - 6 months](Images/Actual and Strategy Returns - 6 months.png)
+![Actual and Strategy Returns - 6 months](Images/Actual_and_Strategy_Returns_6_months.png)
 
 By increasing the size of the taining window we get very similar results. The accuracy is a bit higher but on the other hand the recall for -1 values is even lower than before.
 

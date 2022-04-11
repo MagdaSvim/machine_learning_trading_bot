@@ -10,9 +10,9 @@ This **Jupyter notebook** project aims to improve an existing algorithmic tradin
 
 We start the evaluation using the **Support Vector Machine (SVM)** where we get the following classification report and plot:
 
-![Classification Report SVM](Images/Classification Report SVM.PNG)
+![Classification Report SVM](Images/Classification_Report_SVM.PNG)
 
-![Actual and Strategy Returns](Images/Actual and Strategy Returns.png)
+![Actual and Strategy Returns](Images/Actual_and_Strategy_Returns.png)
 
 We can see that recall is very high for 1 values and very low for -1 values which means that the model is doing well when predicting signal to buy stock, long position. However, the model fails when predicting signal to sell stock, short position.
 
@@ -20,7 +20,7 @@ We can see that recall is very high for 1 values and very low for -1 values whic
 
 When we tune the algorithm by increasing the size of the training window, we get the following classification report and plot:
 
-![Classification Report 6 months](Images/Classification Report 6 months.PNG)
+![Classification Report 6 months](Images/Classification_Report_6_months.PNG)
 
 ![Actual and Strategy Returns - 6 months](Images/Actual_and_Strategy_Returns_6_months.png)
 
@@ -30,7 +30,7 @@ By increasing the size of the taining window we get very similar results. The ac
 
 After adjusting the **short window** to 10 days, we get the following classification report and plot:
 
-![Classification Report - windows](Images/Classification Report - windows.PNG)
+![Classification Report - windows](Images/Classification_Report_windows.PNG)
 
 ![Actual and Strategy Returns - Windows](Images/Windows.png)
 
@@ -40,9 +40,9 @@ By adjusting the SMA input feature, we do get slightly better results. Even thou
 
 When we use **Logistic Regression** model, we get the following classification report and plot:
 
-![LR Classification report](Images/LR Classification report.PNG)
+![LR Classification report](Images/LR_Classification_report.PNG)
 
-![LR-Actual and Strategy Returns](Images/LR-Actual and Strategy Returns.png)
+![LR-Actual and Strategy Returns](Images/LR_Actual_and_Strategy_Returns.png)
 
 After reviewing model using Logistic Regression classifier, we can see improvement in predicting recall for -1 values and that is where our other models performed poorly. Looking at the plot we can observe the improvement as well. 
 
